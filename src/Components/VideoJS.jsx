@@ -41,7 +41,7 @@ export const VideoJS = (props) => {
         if (player && !player.isDisposed()) {
             player.dispose();
             playerRef.current = null;
-        }
+        };
         };
     }, [playerRef]);
 
